@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FreshClean Laundry</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f9f9f9;
+    }
+    .hero {
+      background: url('images/baground.png') no-repeat center center/cover;
+      height: 100vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+    }
+    .hero h1 {
+      font-size: 3rem;
+    }
+    .hero p {
+      font-size: 1.5rem;
+    }
+    .hubungi-kami {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background-color: #e0e0e0;
+      border-radius: 20px;
+      padding: 10px 15px;
+      z-index: 999;
+      display: flex;
+      align-items: center;
+    }
+    .hubungi-kami img {
+      width: 30px;
+      margin-right: 10px;
+    }
+    .galeri img {
+      border-radius: 10px;
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    footer {
+      background-color: #2C7A7B;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #2C7A7B;">
+    <div class="container">
+      <a class="navbar-brand" href="#">FreshClean</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#homepage">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tentang-kami">Tentang Kami</a></li>
+          <li class="nav-item"><a class="nav-link" href="#layanan">Layanan</a></li>
+          <li class="nav-item"><a class="nav-link" href="#harga">Harga</a></li>
+          <li class="nav-item"><a class="nav-link" href="#galeri">Galeri</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimoni">Testimoni</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kontak-kami">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="homepage" class="hero">
+    <div class="container text-white">
+      <h1>Selamat Datang di FreshClean Laundry</h1>
+      <p>Solusi Laundry Bersih, Murah, dan Cepat</p>
+    </div>
+  </section>
+
+  <!-- Hubungi Kami Button -->
+  <div class="hubungi-kami">
+    <img src="images/wa.png" alt="WhatsApp">
+    <a href="#kontak-kami" class="text-decoration-none text-dark">Hubungi Kami</a>
+  </div>
+
+  <!-- Tentang Kami -->
+  <section id="tentang-kami" class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="images/galery-1.png" alt="" class="img-fluid rounded">
+        </div>
+        <div class="col-md-6">
+          <h2>Tentang Kami</h2>
+          <p><strong>FreshClean</strong> Laundry adalah usaha laundry profesional dengan layanan terbaik, menggunakan deterjen ramah lingkungan dan teknologi modern. Telah melayani masyarakat Pekalongan lebih dari 5 tahun.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Layanan -->
+  <section id="layanan" class="py-5 bg-light">
+    <div class="container text-center">
+      <h2>Layanan Kami</h2>
+      <div class="row mt-4">
+        <div class="col-md-3"><h5>Laundry Kiloan</h5><p>Cocok untuk pakaian harian.</p></div>
+        <div class="col-md-3"><h5>Laundry Satuan</h5><p>Untuk jas, gaun, dll.</p></div>
+        <div class="col-md-3"><h5>Setrika Saja</h5><p>Hanya setrika tanpa cuci.</p></div>
+        <div class="col-md-3"><h5>Antar-Jemput</h5><p>Gratis antar jemput.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Harga -->
+  <section id="harga" class="py-5">
+    <div class="container">
+      <h2 class="text-center">Daftar Harga</h2>
+      <table class="table table-bordered table-striped mt-4">
+        <thead class="table-success">
+          <tr>
+            <th>Layanan</th>
+            <th>Harga</th>
+            <th>Keterangan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Laundry Kiloan</td><td>Rp 15.000 / kg</td><td>Termasuk cuci, kering, dan setrika</td></tr>
+          <tr><td>Laundry Satuan</td><td>Rp 10.000 - Rp 50.000</td><td>Per pcs, tergantung jenis</td></tr>
+          <tr><td>Setrika Saja</td><td>Rp 7.000 / pcs</td><td>Setrika tanpa cuci</td></tr>
+          <tr><td>Antar-Jemput</td><td>Gratis</td><td>Wilayah Pekalongan</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Galeri -->
+  <section id="galeri" class="py-5 bg-light">
+    <div class="container text-center">
+      <h2>Galeri</h2>
+      <div class="row galeri mt-4">
+        <div class="col-md-4 mb-3"><img src="images/galery-1.png" alt="Galeri 1"></div>
+        <div class="col-md-4 mb-3"><img src="images/galery-2.png" alt="Galeri 2"></div>
+        <div class="col-md-4 mb-3"><img src="images/galery-3.png" alt="Galeri 3"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimoni -->
+  <section id="testimoni" class="py-5">
+    <div class="container text-center">
+      <h2>Testimoni Pelanggan</h2>
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <div class="p-4 bg-white rounded shadow">
+            <p>"Layanan cepat dan bersih. Sangat puas!"</p>
+            <div class="text-end fw-bold">- Sari</div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-4 bg-white rounded shadow">
+            <p>"Laundry terbaik di Pekalongan!"</p>
+            <div class="text-end fw-bold">- Dedi</div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-4 bg-white rounded shadow">
+            <p>"Gratis antar-jemput sangat membantu."</p>
+            <div class="text-end fw-bold">- Maya</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak Kami -->
+  <section id="kontak-kami" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Kontak Kami</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form class="bg-white p-4 rounded shadow">
+            <div class="mb-3">
+              <label for="nama" class="form-label">Nama</label>
+              <input type="text" class="form-control" id="nama" placeholder="Nama Anda">
+            </div>
+            <div class="mb-3">
+              <label for="telepon" class="form-label">No Telepon</label>
+              <input type="text" class="form-control" id="telepon" placeholder="0812xxxxxxx">
+            </div>
+            <div class="mb-3">
+              <label for="pesan" class="form-label">Pesan</label>
+              <textarea class="form-control" id="pesan" rows="4" placeholder="Tulis pesan Anda di sini..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-success w-100">Kirim Pesan</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 FreshClean Laundry. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
